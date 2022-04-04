@@ -1,0 +1,194 @@
+p{
+	text-align: center;
+	font-family: Georgia-serif;
+	font-weight: bold;
+}
+.full{
+	background-color: aqua;
+	position:static;
+	width:fit-content;
+	border: solid rgb(225, 218, 26);
+	height:1600px;
+	margin: 25px;
+}
+.top{
+   background-color: aquamarine;
+   position: static;
+   width: 940px;
+   border: solid rgb(22, 231, 85);
+   height:85px;
+   margin: 10px;
+   margin-top:5px;
+   margin-bottom: 10px;
+   padding-top: 2px;
+   align-items:center;
+}
+.top2{
+	background-color: rgb(143, 91, 189);
+	position: static;
+	width:920px ;
+	border: salmon;
+	height:40px;
+	margin: auto;
+	display:contents;
+	align-items: center;
+	justify-content: center;
+}
+.left{
+	background-color: rgb(198, 36, 174);
+	position: static;
+	width:920px;
+	border: rgb(33, 125, 201);
+	height:1200px;
+	margin:20px;
+	float:left;
+}
+.left1{
+	background-color: rgb(134, 218, 23);
+	position: static;
+	width:"" ;
+	border: rgb(46, 106, 196);
+	height: 60px;
+	margin: 30px;
+	display: content;
+	align-items: center;
+	justify-content: center;
+}
+.left2{
+	background-color: rgb(23, 218, 49);
+	position: static;
+	width:"" ;
+	border: rgb(11, 104, 242);
+	height: 940px;
+	margin: 30px;
+	display: content;
+	align-items: center;
+	justify-content: center;
+}
+.left3{
+	background-color: rgb(197, 25, 114);
+	position: static;
+	width:"" ;
+	border: salmon;
+	height:40px;
+	margin: 20px;
+
+}
+.right{
+	background-color: blanchedalmond;
+	position: static;
+	width: 540px ;
+	border: salmon;
+	height:1200x;
+	margin: 20px;
+	
+	float:right;
+}
+.right{
+	background-color: rgb(181, 128, 49);
+	position: static;
+	width: 540px ;
+	border: rgb(115, 37, 211);
+	height:50px;
+	margin: 20px;
+}
+.right1div{
+	background-color: rgb(49, 181, 73);
+	position: static;
+	width: 540px ;
+	border: rgb(41, 86, 191);
+	height:400px;
+	margin: 20px;
+}
+.div1box,.div2box,.div3box,.div4box{
+	background-color: rgb(49, 165, 172);
+	position: static;
+	width: 540px ;
+	border: rgb(179, 199, 27);
+	height:40px;
+	margin: 40px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+.div2div{
+  background-color: rgb(49, 181, 73);
+	position: static;
+	width: "" ;
+	border: rgb(105, 131, 194);
+	height:430px;
+	margin: 20px;
+}
+.div5box{
+background-color: rgb(45, 162, 170);
+position: static;
+width: "" ;
+border: rgb(105, 131, 194);
+height: 50px;
+margin: 20px;
+}
+.div6box{
+	background-color: rgb(11, 30, 126);
+	position: static;
+	width:300px;
+	border: rgb(206, 18, 210);
+	height: 180px;
+	margin: 20px;
+	display: content;
+	align-items: center;
+	justify-content: center;
+}
+	
+.div7box{
+	background-color: rgb(23, 218, 49);
+	position: static;
+	width:100px ;
+	border: rgb(11, 104, 242);
+	height: 190px;
+	margin: 20px;
+	display: content;
+	align-items: center;
+	justify-content: center;
+}
+.div8box{
+	background-color: rgb(49, 165, 172);
+	position: static;
+	width: 450px ;
+	border: rgb(179, 199, 27);
+	height:40px;
+	margin: 20px;
+	float:left;
+	margin-top:1px;
+}
+.right4{
+background-color: rgb(39, 203, 214);
+position: static;
+width: "" ;
+border: rgb(52, 169, 118);
+height: 50px;
+margin: 20px;
+}
+.bottom{
+	background-color: rgb(49, 165, 172);
+	position: static;
+	width: 450px ;
+	border: rgb(179, 199, 27);
+	height:60px;
+	margin: 20px;
+	float:left;
+	margin-top:1px;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+   
+
+
+
