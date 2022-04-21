@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+video {
+  width: 95%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+  width: 95%;
+  @media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 20%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 50.33%;}
+  .col-s-8 {width: 60.66%;}
+  .col-s-9 {width: 70%;}
+  .col-s-10 {width: 80.33%;}
+  .col-s-11 {width: 85.66%;}
+  .col-s-12 {width: 95%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 80.33%;}
+  .col-11 {width: 90.66%;}
+  .col-12 {width: 95%;}
+}
+
+html {
+  font-family:"Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #13ce67;
+  color: #cd2828;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 5;
+}
+
+.menu li {
+  padding: 10px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #163dc8;
+  box-shadow: 0 1px 3px rgba(1, 221, 255, 0.865), 0 1px 2px rgba(12, 153, 247, 0.966);
+}
+
+.menu li:hover {
+  background-color: #79ef0a;
+}
+
+.aside {
+  background-color: #d31fb8;
+  padding: 15px;
+  color: #f20000;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(14, 230, 245, 0.811), 0 1px 2px rgba(8, 162, 173, 0.847);
+}
+
+.footer {
+  background-color: #00cc0e;
+  color: #e61818;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> SOUTH KOREA</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>The Flight</li>
+      <li>The City</li>
+      <li>The Island</li>
+      <li>The food</li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>The City</h1>
+    <p>SOUTH KOREA is the capital of Seoul the source of oppa in the korean dramas that filipinos most want to idolize and want to be one of their look a like.</p>
+    <video width="400" controls>
+      <source src="video2.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>Seoul is a city of most popular idols.</p>
+      <h2>Where?</h2>
+      <p>Idols we can find in the commercials and k-dramas.</p>
+      <h2>How?</h2>
+      <p>Seoul can be reached from almost all international airports in India.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p></p>
+</div>
+
+</body>
+</html>

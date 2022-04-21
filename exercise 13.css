@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #444;
+    color: white;
+    padding: 15px;
+}
+.topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.topmenu li a:hover {
+    background-color: #222;
+}
+.topmenu li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.sidemenu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.sidemenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidemenu li a {
+    margin-bottom: 4px;
+    display: block;
+    padding: 8px;
+    background-color: #eee;
+    text-decoration: none;
+    color: #666;
+}
+.sidemenu li a:hover {
+    background-color: #555;
+    color: white;
+}
+.sidemenu li a.active {
+    background-color: #008CBA;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<ul class="topmenu">
+  <li><a href="" class="The Flight">Home</a></li>
+  <li><a href="></a>The City</li>
+  <li><a href=""></a>The Island</li>
+  <li><a href=""></a>The food</li>
+</ul>
+
+<div class="clearfix">
+  <div class="column sidemenu">
+    <ul>
+      <li><a href="#interest">Point of Interest</a></li>
+      <li><a href="#culture" class="active">Culture</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#religion">Religion</a></li>
+      <li><a href="#history"> History</a></li>
+      <li><a href="#demographics">Demographics</a></li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <div class="header">
+      <h1>SOUTH KOREA ABOUT</h1>
+    </div>
+    <h1>SOUTH KOREA</h1>
+    <p>SOUTH KOREA is the capital of Seoul the source of oppa in the korean dramas that filipinos most want to idolize and want to be one of their look a like.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright 2022</p>
+</div>
+
+</body>
+</html>
